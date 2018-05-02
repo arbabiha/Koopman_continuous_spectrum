@@ -6,7 +6,7 @@
 clear all
 close all
 
-addpath('./Resources')
+addpath('./tools')
 
 %% Define system
 
