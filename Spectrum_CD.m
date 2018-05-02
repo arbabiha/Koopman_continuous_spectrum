@@ -280,6 +280,7 @@ if(exist('yalmiptest','file') == 2)
     
 else
     warning('Yalmip not found. If you want to to get the quadrature results, install yamip from https://yalmip.github.io/download/')
+    figure
     plot(x,cumsum(CM)*(x(2)-x(1)),'--g','linewidth',2); hold on
     plot(x,cumsum(spectrum_CD)*(x_cd(2)-x_cd(1)),'--m','linewidth',2)
     LEG = legend('Cesaro', 'N/K(z,z)'); LEG.FontSize = 20;
