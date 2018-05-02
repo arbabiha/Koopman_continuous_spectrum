@@ -3,8 +3,10 @@
 
 % Milan Korda, May 2018
 
-clear all, close all
-addpath('./tools')
+clear all
+close all
+
+addpath('./Resources')
 
 %% Define system
 
