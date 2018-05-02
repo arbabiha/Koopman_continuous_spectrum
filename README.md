@@ -12,7 +12,7 @@ arXiv, by M. Korda, M. Putinar and I. Mezic
 
 
 ### files in the root folder:
-Spectrum_SP: Method 1 for Arnold's cat map, Lorenz 63, 2d cavity flow
+Spectrum_SP: Method 1 for Arnold's cat map, Lorenz 63, 2d cavity flow  
 Spectrum_CD: Method 2 for Arnold's cat map, Lorenz 63, 2d cavity flow and a synthetic example 
 
 
