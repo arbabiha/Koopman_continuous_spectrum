@@ -284,6 +284,7 @@ else
     plot(x,cumsum(CM)*(x(2)-x(1)),'--g','linewidth',2); hold on
     plot(x,cumsum(spectrum_CD)*(x_cd(2)-x_cd(1)),'--m','linewidth',2)
     LEG = legend('Cesaro', 'N/K(z,z)'); LEG.FontSize = 20;
+    title('Approximation of the cumulative density function','Fontsize',15)
 end
 
 
